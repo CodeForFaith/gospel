@@ -17,18 +17,18 @@ setup(
     url="https://github.com/CodeForFaith/gospel",
     author="CodeForFaith",
     author_email="contact@codeforfaith.com",
-    license="MIT",
+    license="Unlicensed",
     classifiers=[
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Unlicensed",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
     ],
     packages=["gospel"],
     include_package_data=True,
-    install_requires=["feedparser", "html2text"],
+    install_requires=["PyInquirer"],
     entry_points={
         "console_scripts": [
-            "realpython=reader.__main__:main",
+            "codeforfaith=gospel.__main__:main",
         ]
     },
 )
