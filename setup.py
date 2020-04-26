@@ -21,7 +21,7 @@ setup(
     classifiers=[
         "License :: OSI Approved :: Unlicensed",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.8",
     ],
     packages=["gospel"],
     include_package_data=True,
