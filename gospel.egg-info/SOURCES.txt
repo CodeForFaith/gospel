@@ -3,7 +3,6 @@ README.md
 setup.py
 gospel/__init__.py
 gospel/__main__.py
-gospel/cli.py
 gospel/gospel_message.py
 gospel.egg-info/PKG-INFO
 gospel.egg-info/SOURCES.txt
